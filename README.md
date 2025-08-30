@@ -147,7 +147,7 @@ class Mammal(Animal):
         """Mammal-specific behavior"""
         return "👶 Giving birth to live young!"
 
-# Demonstration of polymorphism
+ Demonstration of polymorphism
 
 def demonstrate_movement(animals):
     """Demonstrate polymorphism by calling move() on different animals"""
@@ -156,7 +156,7 @@ def demonstrate_movement(animals):
     for animal in animals:
         print(f"{animal.name}: {animal.move()}")
 
-# Create some smartphone objects
+ Create some smartphone objects
 
 print("📱 Smartphone Examples:")
 print("=" * 40)
@@ -173,8 +173,7 @@ print(iphone.set_volume(75))
 print("\n" + samsung.get_info())
 print(samsung.install_app("Instagram"))
 print(samsung.install_app("Twitter"))
-
-# Create animal objects and demonstrate polymorphism
+ Create animal objects and demonstrate polymorphism
 
 print("\n🐾 Animal Examples:")
 print("=" * 40)
@@ -190,17 +189,17 @@ for animal in animals:
     print(f"Movement: {animal.move()}")
     print(f"Sound: {animal.speak()}")
 
-# Special behaviors
+ Special behaviors
 
 print(f"\n{eagle.name}: {eagle.build_nest()}")
 print(f"{salmon.name}: {salmon.blow_bubbles()}")
 print(f"{dog.name}: {dog.give_birth()}")
 
-# Demonstrate polymorphism
+ Demonstrate polymorphism
 
 demonstrate_movement(animals)
 
-# Additional polymorphism example with different movement contexts
+ Additional polymorphism example with different movement contexts
 
 print("\n\n🚗 Vehicle Polymorphism Example:")
 print("=" * 40)
@@ -225,7 +224,7 @@ class Bicycle(Vehicle):
     def move(self):
         return "🚴 Pedaling on the path!"
 
-# Create vehicles and demonstrate polymorphism
+ Create vehicles and demonstrate polymorphism
 
 vehicles = [Car(), Airplane(), Boat(), Bicycle()]
 
